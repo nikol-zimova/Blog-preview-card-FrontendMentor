@@ -1,0 +1,158 @@
+body{
+    font-family: "Figtree", sans-serif;
+    font-weight: 500;
+    max-width: 1440px;
+    background-color: hsl(47, 88%, 63%);
+    margin: auto;
+}
+
+.card-container{
+    border: 1.5px solid hsl(0, 0%, 50%);
+    border-radius: 15px;
+    max-width: 25%;
+    background-color: hsl(0, 0%, 100%);
+    filter: drop-shadow(7px 7px);
+    margin: auto;
+    margin-top: 150px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+    margin: 5%;
+    margin-bottom: 0;
+}
+
+.content-container{
+    margin: 5%;
+}
+
+.category{
+    font-size: 12px;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    border: none;
+    border-radius: 3px;
+    width: fit-content;
+    padding: 5px 12px;
+}
+
+.publish-date{
+    font-size: 12px;
+    color: hsl(0, 0%, 7%);
+}
+
+.article-title{
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-size: 22px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.article-title:hover{
+    color: hsl(47, 88%, 63%);
+}
+
+.card-container:hover {
+    filter: drop-shadow(15px 15px);
+}
+
+.preview{
+    font-size: 14px;
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 12px;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    max-width: 100%;
+    margin: 0;
+}
+  
+.avatar {
+    width: 25px;
+    height: auto;
+    margin-right: 10px;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    position: relative;
+    bottom: 0;
+    padding-top: 2.5em;
+    padding-bottom: 2em;
+ }
+ 
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+
+@media (max-width: 375px) {
+    body{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .card-container{
+        max-width: 90%;
+        margin-top: 20%;
+    }
+    .banner{
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 90%;
+    }
+    .content-container{
+        margin: 7%;
+    }
+ }
+ 
+ @media (min-width: 376px) and (max-width: 1024px){
+    body{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .card-container{
+        max-width: 90%;
+        margin-top: 20%;
+    }
+    .banner{
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 90%;
+    }
+    .content-container{
+        margin: 7%;
+    }
+ }
+ 
+ @media (orientation: landscape) and (max-width: 1024px){
+    .card-container{
+        max-width: 60%;
+        margin-top: 5%;
+    }
+    .banner{
+        margin-left: 50px;
+        margin-right: 50px;
+        max-width: 100%;
+    }
+    .content-container{
+        margin: 7%;
+    }
+ }
