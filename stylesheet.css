@@ -9,7 +9,7 @@ body{
 .card-container{
     border: 1.5px solid hsl(0, 0%, 50%);
     border-radius: 15px;
-    max-width: 25%;
+    max-width: 20%;
     background-color: hsl(0, 0%, 100%);
     filter: drop-shadow(7px 7px);
     margin: auto;
